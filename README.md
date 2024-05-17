@@ -14,7 +14,7 @@ Before you can run the code in this repository, you'll need to have the followin
 - CUDA 11.4
 
 ## Dataset
-The Hyperspectral Object Tracking Challenge 2023 [HOT023](www.hsitracking.com) offers comprehensive datasets comprising 109 training videos and 87 validation videos.
+The Hyperspectral Object Tracking Challenge 2023 [HOT023](https://www.hsitracking.com) offers comprehensive datasets comprising 109 training videos and 87 validation videos.
 These datasets were captured using three XIMEA snapshot cameras, including VIS, NIR, and RedNIR, and covering 16 bands, 25 bands, and 15 bands respectively.
 These videos were captured at 25 FPS. Each video consist of two types of data: hyperspectral video data and false-color video data synthesized from hyperspectral video sequences.
 
@@ -37,5 +37,5 @@ cd ./SeqTrack/lib/test/prompt_seqtrack.py
 ```
 
 ## Acknowledgments
-The authors would like to express their sincere gratitude to [HOT2023](www.hsitracking.com) organizers for kindly sharing the dataset, which has been instrumental in the conduct of this research.
+The authors would like to express their sincere gratitude to [HOT2023](https://www.hsitracking.com) organizers for kindly sharing the dataset, which has been instrumental in the conduct of this research.
 The code in this repository is based on [SeqTrack](https://github.com/microsoft/VideoX/tree/master/SeqTrack). Thanks for sharing the code.
